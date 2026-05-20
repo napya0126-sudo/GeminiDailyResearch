@@ -41,7 +41,7 @@
       <div class="kpi-label">最高注目度</div>
     </div>
     <div class="kpi-card kpi-wide">
-      <div class="kpi-keyword" style="color:var(--accent)">🔑 SaaSの死とAIエージェント</div>
+      <div class="kpi-keyword" style="color:var(--accent)">🔑 SaaSの死（AIエージェント転換）</div>
       <div class="kpi-label">今日のキーワード</div>
     </div>
   </div>
@@ -50,7 +50,7 @@
   <section class="section">
     <h2 class="section-title">📋 概要</h2>
     <div class="overview-box" style="border-left:4px solid var(--accent);background:var(--light)">
-      <p>この1週間は「SaaSの死」とAIエージェントへの移行が話題に。UPDATAのCS研修100名突破やGoogleのISMAP登録、宿泊特化SaaSの補助金採択など、実務へのAI実装と収益責任の拡大が鮮明となった。</p>
+      <p>この1週間、富士通の「SaaSの死」発言や主要企業の成果報酬型課金への移行が相次ぎ、AIエージェント化が鮮明に。GoogleのISMAP登録や宿泊特化SaaSの補助金採択など、公的・垂直領域の実装も加速した。</p>
     </div>
   </section>
 
@@ -69,70 +69,95 @@
       <div class="bar-fill" style="width:95%;background:#f59e0b" data-score="95"></div>
       <span class="bar-label">95</span>
     </div>
-        <p class="topic-body">富士通の時田社長や有識者より「SaaS is dead」という言葉と共に、従来のアプリ型SaaSからAIエージェントへのパラダイムシフトが指摘された。ソフトウェアは単なる道具から自律的に課題を解決するパートナーへ進化し、CSの役割も「操作支援」から「AI活用最適化」へと再定義されている。</p>
-        <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月18日/富士通】時田社長ら「SaaSからAIエージェントへ」の転換を指摘\n【概要】富士通の時田社長や有識者より「SaaS is dead」という言葉と共に、従来のアプリ型SaaSからAIエージェントへのパラダイムシフトが指摘された。ソフトウェアは単なる道具から自律的に課題を解決するパートナーへ進化し、CSの役割も「操作支援」から「AI活用最適化」へと再定義されている。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
-          <span class="ask-icon">✦</span> AIに詳細を聞く
-        </button>
+        <p class="topic-body">富士通の時田社長らより「SaaS is dead」という言葉と共に、従来のアプリ型SaaSからAIエージェントへの転換が指摘された。ソフトウェアは単なる道具から自律的に課題解決するパートナーへ進化し、カスタマーサクセスの役割も「操作支援」から「AI活用最適化」へと再定義される流れが鮮明となった。</p>
+        <div class="btn-row">
+          <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月18日/富士通】時田社長ら「SaaSからAIエージェントへ」の転換を指摘\n【概要】富士通の時田社長らより「SaaS is dead」という言葉と共に、従来のアプリ型SaaSからAIエージェントへの転換が指摘された。ソフトウェアは単なる道具から自律的に課題解決するパートナーへ進化し、カスタマーサクセスの役割も「操作支援」から「AI活用最適化」へと再定義される流れが鮮明となった。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">✦</span> AIに詳細を聞く
+          </button>
+          <button class="ask-btn debate-btn" onclick="askGemini(this, '以下のニュースについて一緒に議論したいと思います。\n\n【トピック】【5月18日/富士通】時田社長ら「SaaSからAIエージェントへ」の転換を指摘\n【概要】富士通の時田社長らより「SaaS is dead」という言葉と共に、従来のアプリ型SaaSからAIエージェントへの転換が指摘された。ソフトウェアは単なる道具から自律的に課題解決するパートナーへ進化し、カスタマーサクセスの役割も「操作支援」から「AI活用最適化」へと再定義される流れが鮮明となった。\n\nまず以下の順番で議論の場を整えてください：\n1. このトピックの賛否・対立軸を整理する（200字以内）\n2. あなた自身の見解とその根拠を述べる\n3. 「私はこの動きに懐疑的です」という立場で反論するとしたら何が言えますか？\n4. 最後に「あなたはどう思いますか？」と私に問いかけてください。\n\n一方的な解説ではなく、対話形式で進めてください。')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">⚡</span> AIと議論する
+          </button>
+        </div>
       </div>
       <div class="topic-card rank-mid">
         <div class="topic-header">
           <span class="topic-num">#2</span>
-          <h3 class="topic-title">【5月14日/UPDATA】MagicSuccessのCS実戦トレーニング、100名突破</h3>
-          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">85</span>
+          <h3 class="topic-title">【5月15日/主要SaaS】AI普及に伴う「成果報酬型課金」への刷新が相次ぐ</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">88</span>
         </div>
         <div class="bar-wrap">
-      <div class="bar-fill" style="width:85%;background:#f59e0b" data-score="85"></div>
-      <span class="bar-label">85</span>
+      <div class="bar-fill" style="width:88%;background:#f59e0b" data-score="88"></div>
+      <span class="bar-label">88</span>
     </div>
-        <p class="topic-body">株式会社UPDATAのCS特化型AIワークスペース「MagicSuccess」が展開する実戦トレーニングが、リリース3週間で申込者数100名を突破した。6月には「AI時代の顧客ライフサイクル」をテーマにしたウェビナー開催も決定。AI活用によるCS業務の標準化と高度化への需要が急速に高まっている。</p>
-        <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月14日/UPDATA】MagicSuccessのCS実戦トレーニング、100名突破\n【概要】株式会社UPDATAのCS特化型AIワークスペース「MagicSuccess」が展開する実戦トレーニングが、リリース3週間で申込者数100名を突破した。6月には「AI時代の顧客ライフサイクル」をテーマにしたウェビナー開催も決定。AI活用によるCS業務の標準化と高度化への需要が急速に高まっている。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
-          <span class="ask-icon">✦</span> AIに詳細を聞く
-        </button>
+        <p class="topic-body">AIによる爆発的な生産性向上を受け、従来のID課金から「成果報酬型（アウトカムベース）」への刷新が一斉に発表された。AIが創出した価値や処理量に基づく価格戦略が普及。生産性が劇的に向上する中で、企業のROIに直結する生産性の可視化が2026年5月の最優先経営課題として浮上している。</p>
+        <div class="btn-row">
+          <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月15日/主要SaaS】AI普及に伴う「成果報酬型課金」への刷新が相次ぐ\n【概要】AIによる爆発的な生産性向上を受け、従来のID課金から「成果報酬型（アウトカムベース）」への刷新が一斉に発表された。AIが創出した価値や処理量に基づく価格戦略が普及。生産性が劇的に向上する中で、企業のROIに直結する生産性の可視化が2026年5月の最優先経営課題として浮上している。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">✦</span> AIに詳細を聞く
+          </button>
+          <button class="ask-btn debate-btn" onclick="askGemini(this, '以下のニュースについて一緒に議論したいと思います。\n\n【トピック】【5月15日/主要SaaS】AI普及に伴う「成果報酬型課金」への刷新が相次ぐ\n【概要】AIによる爆発的な生産性向上を受け、従来のID課金から「成果報酬型（アウトカムベース）」への刷新が一斉に発表された。AIが創出した価値や処理量に基づく価格戦略が普及。生産性が劇的に向上する中で、企業のROIに直結する生産性の可視化が2026年5月の最優先経営課題として浮上している。\n\nまず以下の順番で議論の場を整えてください：\n1. このトピックの賛否・対立軸を整理する（200字以内）\n2. あなた自身の見解とその根拠を述べる\n3. 「私はこの動きに懐疑的です」という立場で反論するとしたら何が言えますか？\n4. 最後に「あなたはどう思いますか？」と私に問いかけてください。\n\n一方的な解説ではなく、対話形式で進めてください。')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">⚡</span> AIと議論する
+          </button>
+        </div>
       </div>
       <div class="topic-card ">
         <div class="topic-header">
           <span class="topic-num">#3</span>
-          <h3 class="topic-title">【5月17日/Google】Gemini Enterpriseが政府ISMAP登録完了、公的機関で活用拡大</h3>
-          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">75</span>
+          <h3 class="topic-title">【5月17日/Google】Gemini Enterpriseが政府ISMAP登録完了</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">82</span>
         </div>
         <div class="bar-wrap">
-      <div class="bar-fill" style="width:75%;background:#f59e0b" data-score="75"></div>
-      <span class="bar-label">75</span>
+      <div class="bar-fill" style="width:82%;background:#f59e0b" data-score="82"></div>
+      <span class="bar-label">82</span>
     </div>
-        <p class="topic-body">Googleの「Gemini Enterprise」が政府情報システムのためのセキュリティ評価制度（ISMAP）に登録された。これにより、機密性の高い情報を扱う官公庁や自治体のカスタマーサクセス業務において生成AIの活用が可能になった。行政サービスのデジタル化と住民対応の迅速化への貢献が期待される。</p>
-        <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月17日/Google】Gemini Enterpriseが政府ISMAP登録完了、公的機関で活用拡大\n【概要】Googleの「Gemini Enterprise」が政府情報システムのためのセキュリティ評価制度（ISMAP）に登録された。これにより、機密性の高い情報を扱う官公庁や自治体のカスタマーサクセス業務において生成AIの活用が可能になった。行政サービスのデジタル化と住民対応の迅速化への貢献が期待される。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
-          <span class="ask-icon">✦</span> AIに詳細を聞く
-        </button>
+        <p class="topic-body">Googleの「Gemini Enterprise」が政府情報システムのセキュリティ評価制度（ISMAP）に登録された。これにより、機密性の高い情報を扱う官公庁や自治体のカスタマーサクセス業務において生成AIの活用が可能になった。行政サービスのデジタル化と住民対応の迅速化への貢献が期待される。</p>
+        <div class="btn-row">
+          <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月17日/Google】Gemini Enterpriseが政府ISMAP登録完了\n【概要】Googleの「Gemini Enterprise」が政府情報システムのセキュリティ評価制度（ISMAP）に登録された。これにより、機密性の高い情報を扱う官公庁や自治体のカスタマーサクセス業務において生成AIの活用が可能になった。行政サービスのデジタル化と住民対応の迅速化への貢献が期待される。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">✦</span> AIに詳細を聞く
+          </button>
+          <button class="ask-btn debate-btn" onclick="askGemini(this, '以下のニュースについて一緒に議論したいと思います。\n\n【トピック】【5月17日/Google】Gemini Enterpriseが政府ISMAP登録完了\n【概要】Googleの「Gemini Enterprise」が政府情報システムのセキュリティ評価制度（ISMAP）に登録された。これにより、機密性の高い情報を扱う官公庁や自治体のカスタマーサクセス業務において生成AIの活用が可能になった。行政サービスのデジタル化と住民対応の迅速化への貢献が期待される。\n\nまず以下の順番で議論の場を整えてください：\n1. このトピックの賛否・対立軸を整理する（200字以内）\n2. あなた自身の見解とその根拠を述べる\n3. 「私はこの動きに懐疑的です」という立場で反論するとしたら何が言えますか？\n4. 最後に「あなたはどう思いますか？」と私に問いかけてください。\n\n一方的な解説ではなく、対話形式で進めてください。')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">⚡</span> AIと議論する
+          </button>
+        </div>
       </div>
       <div class="topic-card ">
         <div class="topic-header">
           <span class="topic-num">#4</span>
-          <h3 class="topic-title">【5月19日/業界動向】CSの収益責任（NRR）拡大、AIで解約率25%削減事例が続出</h3>
-          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">65</span>
+          <h3 class="topic-title">【5月19日/業界動向】CSの収益責任（NRR）拡大、AIで解約率25%削減事例</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">78</span>
         </div>
         <div class="bar-wrap">
-      <div class="bar-fill" style="width:65%;background:#f59e0b" data-score="65"></div>
-      <span class="bar-label">65</span>
+      <div class="bar-fill" style="width:78%;background:#f59e0b" data-score="78"></div>
+      <span class="bar-label">78</span>
     </div>
-        <p class="topic-body">CSチームが売上維持・拡大（NRR）に直接責任を持つ傾向が定着。従来のID課金からAIの成果に基づく「成果報酬型」や「従量課金」への移行が加速している。AI主導のチャーンマネジメント導入により、解約率を最大25%削減した成功事例が複数報告され、CSの利益貢献度が再評価されている。</p>
-        <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月19日/業界動向】CSの収益責任（NRR）拡大、AIで解約率25%削減事例が続出\n【概要】CSチームが売上維持・拡大（NRR）に直接責任を持つ傾向が定着。従来のID課金からAIの成果に基づく「成果報酬型」や「従量課金」への移行が加速している。AI主導のチャーンマネジメント導入により、解約率を最大25%削減した成功事例が複数報告され、CSの利益貢献度が再評価されている。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
-          <span class="ask-icon">✦</span> AIに詳細を聞く
-        </button>
+        <p class="topic-body">CSチームが売上継続率（NRR）に直接責任を持つ傾向が定着。従来のID課金からAIの成果に基づく「成果報酬型」への移行が加速している。AI主導のチャーンマネジメント導入により、解約率を最大25%削減した成功事例が複数報告され、カスタマーサクセスの利益貢献度が再評価されている。</p>
+        <div class="btn-row">
+          <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月19日/業界動向】CSの収益責任（NRR）拡大、AIで解約率25%削減事例\n【概要】CSチームが売上継続率（NRR）に直接責任を持つ傾向が定着。従来のID課金からAIの成果に基づく「成果報酬型」への移行が加速している。AI主導のチャーンマネジメント導入により、解約率を最大25%削減した成功事例が複数報告され、カスタマーサクセスの利益貢献度が再評価されている。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">✦</span> AIに詳細を聞く
+          </button>
+          <button class="ask-btn debate-btn" onclick="askGemini(this, '以下のニュースについて一緒に議論したいと思います。\n\n【トピック】【5月19日/業界動向】CSの収益責任（NRR）拡大、AIで解約率25%削減事例\n【概要】CSチームが売上継続率（NRR）に直接責任を持つ傾向が定着。従来のID課金からAIの成果に基づく「成果報酬型」への移行が加速している。AI主導のチャーンマネジメント導入により、解約率を最大25%削減した成功事例が複数報告され、カスタマーサクセスの利益貢献度が再評価されている。\n\nまず以下の順番で議論の場を整えてください：\n1. このトピックの賛否・対立軸を整理する（200字以内）\n2. あなた自身の見解とその根拠を述べる\n3. 「私はこの動きに懐疑的です」という立場で反論するとしたら何が言えますか？\n4. 最後に「あなたはどう思いますか？」と私に問いかけてください。\n\n一方的な解説ではなく、対話形式で進めてください。')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">⚡</span> AIと議論する
+          </button>
+        </div>
       </div>
       <div class="topic-card ">
         <div class="topic-header">
           <span class="topic-num">#5</span>
-          <h3 class="topic-title">【5月20日/Yado View】宿泊特化SaaSが「IT導入補助金2026」に採択、AI導入加速</h3>
-          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">55</span>
+          <h3 class="topic-title">【5月20日/Yado View】宿泊特化SaaSが「IT導入補助金2026」に採択</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">72</span>
         </div>
         <div class="bar-wrap">
-      <div class="bar-fill" style="width:55%;background:#f59e0b" data-score="55"></div>
-      <span class="bar-label">55</span>
+      <div class="bar-fill" style="width:72%;background:#f59e0b" data-score="72"></div>
+      <span class="bar-label">72</span>
     </div>
         <p class="topic-body">宿泊施設向けレベニューマネジメントSaaS「Yado View」が、経済産業省のIT導入補助金2026に採択された。深刻な人手不足が続く宿泊業界において、AIによるデータ分析で収益を最大化する垂直統合型SaaSの導入を公的に支援。データドリブンな意思決定を支援するSaaSへの投資が国内で加速している。</p>
-        <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月20日/Yado View】宿泊特化SaaSが「IT導入補助金2026」に採択、AI導入加速\n【概要】宿泊施設向けレベニューマネジメントSaaS「Yado View」が、経済産業省のIT導入補助金2026に採択された。深刻な人手不足が続く宿泊業界において、AIによるデータ分析で収益を最大化する垂直統合型SaaSの導入を公的に支援。データドリブンな意思決定を支援するSaaSへの投資が国内で加速している。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
-          <span class="ask-icon">✦</span> AIに詳細を聞く
-        </button>
+        <div class="btn-row">
+          <button class="ask-btn" onclick="askGemini(this, '以下のニュースについて詳しく調べてください。\n\n【トピック】【5月20日/Yado View】宿泊特化SaaSが「IT導入補助金2026」に採択\n【概要】宿泊施設向けレベニューマネジメントSaaS「Yado View」が、経済産業省のIT導入補助金2026に採択された。深刻な人手不足が続く宿泊業界において、AIによるデータ分析で収益を最大化する垂直統合型SaaSの導入を公的に支援。データドリブンな意思決定を支援するSaaSへの投資が国内で加速している。\n\n特に以下の観点で教えてください：\n・このニュースの背景と経緯\n・日本への具体的な影響\n・今後1〜3ヶ月の展望\n・関連する注目プレイヤーや企業')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">✦</span> AIに詳細を聞く
+          </button>
+          <button class="ask-btn debate-btn" onclick="askGemini(this, '以下のニュースについて一緒に議論したいと思います。\n\n【トピック】【5月20日/Yado View】宿泊特化SaaSが「IT導入補助金2026」に採択\n【概要】宿泊施設向けレベニューマネジメントSaaS「Yado View」が、経済産業省のIT導入補助金2026に採択された。深刻な人手不足が続く宿泊業界において、AIによるデータ分析で収益を最大化する垂直統合型SaaSの導入を公的に支援。データドリブンな意思決定を支援するSaaSへの投資が国内で加速している。\n\nまず以下の順番で議論の場を整えてください：\n1. このトピックの賛否・対立軸を整理する（200字以内）\n2. あなた自身の見解とその根拠を述べる\n3. 「私はこの動きに懐疑的です」という立場で反論するとしたら何が言えますか？\n4. 最後に「あなたはどう思いますか？」と私に問いかけてください。\n\n一方的な解説ではなく、対話形式で進めてください。')" style="--btn-color:#f59e0b">
+            <span class="ask-icon">⚡</span> AIと議論する
+          </button>
+        </div>
       </div>
     </div>
   </section>
@@ -142,8 +167,8 @@
     <h2 class="section-title">✅ 今日のキーポイント</h2>
     <ul class="kp-list">
       <li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>従来のアプリ型SaaSから、自律的に課題解決を行う「AIエージェント」への役割転換</li>
-<li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>カスタマーサクセスがNRR（売上継続率）に直接責任を持ち、成果報酬型課金へ移行する動き</li>
-<li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>政府ISMAP登録などの信頼性向上により、官公庁や宿泊等の保守的業界でもAI・CS導入が本格化</li>
+<li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>ID課金モデルから、AIが創出した価値に基づく「成果報酬型（アウトカムベース）」への移行</li>
+<li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>カスタマーサクセスが単なる解約防止から、NRR向上を牽引する収益部門へと再定義</li>
 
     </ul>
   </section>

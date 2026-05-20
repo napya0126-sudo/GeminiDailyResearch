@@ -179,6 +179,12 @@ body {
 .topic-body { font-size: .88rem; color: var(--muted); line-height: 1.75; margin-bottom: 12px; }
 
 /* AIに詳細を聞くボタン */
+.btn-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .ask-btn {
   display: inline-flex;
   align-items: center;
@@ -201,6 +207,13 @@ body {
   background: #10b981;
   border-color: #10b981;
   color: #fff;
+}
+.debate-btn {
+  background: var(--btn-color, var(--accent));
+  color: #fff;
+}
+.debate-btn:hover {
+  opacity: .85;
 }
 .ask-icon { font-size: .75rem; }
 
