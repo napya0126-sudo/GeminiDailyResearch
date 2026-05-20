@@ -176,7 +176,33 @@ body {
 }
 .bar-label { display: none; }
 
-.topic-body { font-size: .88rem; color: var(--muted); line-height: 1.75; }
+.topic-body { font-size: .88rem; color: var(--muted); line-height: 1.75; margin-bottom: 12px; }
+
+/* AIに詳細を聞くボタン */
+.ask-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 1.5px solid var(--btn-color, var(--accent));
+  border-radius: 99px;
+  background: transparent;
+  color: var(--btn-color, var(--accent));
+  font-size: .8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.ask-btn:hover {
+  background: var(--btn-color, var(--accent));
+  color: #fff;
+}
+.ask-btn--copied {
+  background: #10b981;
+  border-color: #10b981;
+  color: #fff;
+}
+.ask-icon { font-size: .75rem; }
 
 /* キーポイント */
 .kp-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
