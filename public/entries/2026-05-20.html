@@ -3,56 +3,199 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>📊 SaaS・カスタマーサクセス — 2026年5月20日</title>
+<title>📊 SaaS・カスタマーサクセス — 2026年5月20日（水）</title>
 <link rel="stylesheet" href="../style.css">
-<style>:root { --accent: #f59e0b; }</style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --accent:  #f59e0b;
+    --light:   #fffbeb;
+    --grad:    135deg, #f59e0b, #f97316;
+  }
+</style>
 </head>
 <body>
-<header>
-  <a href="../index.html" class="back">← 一覧へ</a>
-  <div class="theme-badge" style="background:#f59e0b">📊 SaaS・カスタマーサクセス</div>
-  <time>2026年5月20日</time>
+
+<!-- ヘッダー -->
+<header class="entry-header" style="background:linear-gradient(135deg, #f59e0b, #f97316)">
+  <a href="../index.html" class="back-btn">← 一覧</a>
+  <div class="entry-meta">
+    <span class="entry-icon">📊</span>
+    <div>
+      <div class="entry-theme">SaaS・カスタマーサクセス</div>
+      <time class="entry-date">2026年5月20日（水）</time>
+    </div>
+  </div>
 </header>
-<main class="entry-body">
-<p>「SaaS・カスタマーサクセス」に関する最新のトレンドを調査し、レポートを作成します。</p>
 
+<main class="entry-main">
 
-<h2>概要</h2>
-<p>2026年のSaaS業界におけるカスタマーサクセス（CS）は、従来の「解約防止（守り）」から「収益最大化（攻め）」への転換が完全に定着しました。新規顧客獲得コストの高騰を背景に、既存顧客からの売上維持・拡大を示す「NRR（売上継続率）」が最重要指標となり、CS部門は企業の成長を牽引する利益センターとしての役割を担っています。また、生成AIが単なる補助ツールから「自律型エージェント」へと進化したことで、業務の自動化と高度化が加速しています。</p>
+  <!-- KPIカード -->
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">5</div>
+      <div class="kpi-label">トピック数</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">95</div>
+      <div class="kpi-label">最高注目度</div>
+    </div>
+    <div class="kpi-card kpi-wide">
+      <div class="kpi-keyword" style="color:var(--accent)">🔑 エージェント型AI</div>
+      <div class="kpi-label">今日のキーワード</div>
+    </div>
+  </div>
 
-<h2>主要トピック</h2>
+  <!-- 概要 -->
+  <section class="section">
+    <h2 class="section-title">📋 概要</h2>
+    <div class="overview-box" style="border-left:4px solid var(--accent);background:var(--light)">
+      <p>2026年のSaaSカスタマーサクセスは「解約防止」から「収益創出のエンジン」へと進化。AIは自律的にアクションを行う「エージェント型AI」へ移行し、CS組織はNRR向上を担う「カスタマーセールス」へと変貌しています。ID課金から成果連動・従量課金へのシフトも進み、顧客の成功が直接企業の収益に直結する構造が標準化。CS担当者はAIを活用した高度な戦略的コンサルティングへ注力しています。</p>
+    </div>
+  </section>
 
-<h3>1. 「カスタマーセールス」への役割進化</h3>
-<p>CSのミッションが、単なるサポートや解約阻止から、アップセル・クロスセルを通じた売上拡大へと明確にシフトしました。営業的感度を持ち、顧客の事業成長に合わせた追加提案を行う「カスタマーセールス」という概念が標準化され、CS担当者にはコンサルティング力と営業スキルの双方が強く求められるようになっています。</p>
+  <!-- 注目度チャート -->
+  <section class="section">
+    <h2 class="section-title">📊 トピック注目度ランキング</h2>
+    <div class="chart-wrap">
+      <canvas id="topicChart" height="220"></canvas>
+    </div>
+  </section>
 
-<h3>2. エージェント型AI（Agentic AI）の社会実装</h3>
-<p>2024年までのAI活用は商談要約などの補助に留まっていましたが、2026年現在はAIが自律的に判断しワークフローを実行する「エージェント型」が主流です。顧客データから解約リスクや拡大余地を自動検知し、最適なオンボーディングプランの提示や初期対応をAIが完結させることで、CS担当者はより複雑な人間関係の構築や戦略立案に注力可能となりました。</p>
+  <!-- トピックカード -->
+  <section class="section">
+    <h2 class="section-title">🗂 主要トピック詳細</h2>
+    <div class="topic-grid">
+      
+      <div class="topic-card rank-top">
+        <div class="topic-header">
+          <span class="topic-num">#1</span>
+          <h3 class="topic-title">攻めのカスタマーセールス</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">95</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:95%;background:#f59e0b" data-score="95"></div>
+      <span class="bar-label">95</span>
+    </div>
+        <p class="topic-body">新規獲得コストの上昇を受け、既存顧客からの収益最大化を狙う「攻めのCS」が加速。従来のサポート業務を超え、NRR（売上継続率）をKGIに設定し、顧客の事業成長に合わせた追加提案を行う「カスタマーセールス」組織への再編が進んでいます。顧客の成功を売上に直結させる戦略が企業の勝敗を分ける鍵です。</p>
+      </div>
+      <div class="topic-card rank-mid">
+        <div class="topic-header">
+          <span class="topic-num">#2</span>
+          <h3 class="topic-title">エージェント型AIの自律化</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">90</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:90%;background:#f59e0b" data-score="90"></div>
+      <span class="bar-label">90</span>
+    </div>
+        <p class="topic-body">2026年はAIが「要約・作成」から「自律的な実行」へと進化。AIエージェントが顧客データをリアルタイム解析し、リスク察知やオンボーディング案内を自律的に実施します。CS担当者は定型業務から解放され、より人間味のある深い信頼関係の構築や、難易度の高い戦略的コンサルティングに集中可能になります。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#3</span>
+          <h3 class="topic-title">成果連動・従量課金モデル</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">85</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:85%;background:#f59e0b" data-score="85"></div>
+      <span class="bar-label">85</span>
+    </div>
+        <p class="topic-body">従来のID数に応じた固定課金から、顧客が得た「成果（アウトカム）」やAI等の利用量に連動する課金モデルへの移行が進行。2026年末までにエンタープライズSaaSの多くに成果ベースの要素が含まれる予測。顧客が価値を感じるほどベンダーの収益も増える「共創型」のビジネスモデルが次世代の標準となります。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#4</span>
+          <h3 class="topic-title">バーティカルSaaS 2.0</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">80</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:80%;background:#f59e0b" data-score="80"></div>
+      <span class="bar-label">80</span>
+    </div>
+        <p class="topic-body">汎用ツールから、特定業界の商習慣や規制に深く適合した「バーティカルSaaS」へのシフトが深化。単なるツールの提供に留まらず、AIと専門人材を組み合わせて業務そのものを代行するBPaaS（Business Process as a Service）も台頭。人手不足を背景に、業務のアウトソーシングまで担うCSの役割が拡大しています。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#5</span>
+          <h3 class="topic-title">DSRによる共創体験</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">75</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:75%;background:#f59e0b" data-score="75"></div>
+      <span class="bar-label">75</span>
+    </div>
+        <p class="topic-body">デジタルセールスルーム（DSR）を活用し、導入目標や進捗を顧客とデジタル上で一元管理する手法が定着。情報の透明性を高めることで、顧客との「言った言わない」を防ぎ、確実なサクセス（成果）へ導くプロセスを標準化。ハイタッチな対応をデジタルで効率化しつつ、顧客体験の質を向上させる取り組みが主流です。</p>
+      </div>
+    </div>
+  </section>
 
-<h3>3. 「成果報酬型（Outcome-based）」モデルの台頭</h3>
-<p>AIによる業務自動化が進んだ結果、従来の「機能の提供」に対する課金から、コスト削減や売上向上といった「具体的な成果」に対して課金するモデルが登場しています。これに伴い、CSの役割は単なるツール利用の促進ではなく、顧客が合意したKPIを達成したことを論理的・数値的に証明する「成果の守護神」へと高度化しています。</p>
+  <!-- キーポイント -->
+  <section class="section">
+    <h2 class="section-title">✅ 今日のキーポイント</h2>
+    <ul class="kp-list">
+      <li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>NRR（売上継続率）の至上命題化</li>
+<li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>自律型AIエージェントによる業務変革</li>
+<li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>成果報酬・従量課金へのビジネスモデル転換</li>
 
-<h3>4. バーティカルSaaS 2.0と深い垂直統合</h3>
-<p>建設、医療、物流などの特定業界に特化した「バーティカルSaaS」がさらに進化しています。業界特有の深い業務フローやレガシーな商習慣にまで食い込むことで、汎用型SaaSでは不可能な高い定着率を実現。CSも「ITの専門家」ではなく「業界の専門家」としての深いドメイン知識が不可欠な時代に突入しました。</p>
+    </ul>
+  </section>
 
-<h3>5. Service-as-a-Softwareへの移行</h3>
-<p>ソフトウェアを提供するだけでなく、AIを活用して「業務そのもの」を代行するモデルが拡大しています。これにより、SaaS企業は顧客の「IT予算」だけでなく、本来は「人件費」として計上されていた予算枠の獲得に成功しています。CSの現場では、ツールを使いこなしてもらう指導から、AIが代行した業務の品質管理へと業務内容が変化しています。</p>
+  <!-- ソース --><section class='section'><h2 class='section-title'>🔗 参考情報</h2><div class='sources'><a class="source-link" href="https://growwwing.jp/" target="_blank" rel="noopener">https://growwwing.jp/</a>
+<a class="source-link" href="https://modall.ca/" target="_blank" rel="noopener">https://modall.ca/</a>
+</div></section>
 
-<h2>今日のキーポイント</h2>
-<ul>
-<li><strong>NRRこそが王道:</strong> 企業の時価総額を左右するのは新規契約数ではなく、既存顧客がいかに継続・拡張したか（NRR）に集約されています。</li>
-<li><strong>AIは「伴走者」から「実行者」へ:</strong> 人間がAIを操作する時代から、AIが自律的にCS業務の一部を完結させ、人間がそれを管理する構造へ変化しました。</li>
-<li><strong>「思考力×テクノロジー」の希少化:</strong> 定型業務がAIに置き換わる中、顧客の真の課題を発見し、ステークホルダー間の合意を形成する「高度な対人スキル」の価値がかつてないほど高まっています。</li>
-</ul>
-
-<h2>参考情報</h2>
-<ul>
-<li>2025-2026 SaaS CS Trend Report</li>
-<li>Customer Success Strategy 2026: From Churn to Growth</li>
-<li>The Rise of Agentic AI in B2B SaaS Platforms</li>
-</ul>
 </main>
-<footer>
-  <p>Powered by Gemini CLI × はせぴょんデイリーリサーチ</p>
+
+<footer class="entry-footer">
+  Powered by Gemini CLI × はせぴょんデイリーリサーチ
 </footer>
+
+<script>
+const ctx = document.getElementById('topicChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["攻めのカスタマーセールス", "エージェント型AIの自律", "成果連動・従量課金モデル", "バーティカルSaaS 2", "DSRによる共創体験"],
+    datasets: [{
+      label: '注目度スコア',
+      data: [95, 90, 85, 80, 75],
+      backgroundColor: ["#f59e0b", "#f59e0b", "#f59e0b", "#f59e0b", "#f59e0b"],
+      borderRadius: 8,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ` 注目度: ${ctx.raw} / 100`
+        }
+      }
+    },
+    scales: {
+      x: {
+        min: 0, max: 100,
+        grid: { color: '#f1f5f9' },
+        ticks: { color: '#64748b' }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#1e293b', font: { size: 13 } }
+      }
+    }
+  }
+});
+
+// バーアニメーション
+document.querySelectorAll('.bar-fill').forEach(el => {
+  const w = el.dataset.score + '%';
+  el.style.width = '0';
+  setTimeout(() => { el.style.width = w; }, 300);
+});
+</script>
 </body>
 </html>
