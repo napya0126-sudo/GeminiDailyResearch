@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>📊 SaaS・カスタマーサクセス — 2026年5月13日（水）</title>
+<link rel="stylesheet" href="../style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --accent:  #f59e0b;
+    --light:   #fffbeb;
+    --grad:    135deg, #f59e0b, #f97316;
+  }
+</style>
+</head>
+<body>
+
+<!-- ヘッダー -->
+<header class="entry-header" style="background:linear-gradient(135deg, #f59e0b, #f97316)">
+  <a href="../index.html" class="back-btn">← 一覧</a>
+  <div class="entry-meta">
+    <span class="entry-icon">📊</span>
+    <div>
+      <div class="entry-theme">SaaS・カスタマーサクセス</div>
+      <time class="entry-date">2026年5月13日（水）</time>
+      <div class="entry-period">📅 調査期間: 2026年5月11日 〜 2026年5月17日</div>
+    </div>
+  </div>
+</header>
+
+<main class="entry-main">
+
+  <!-- KPIカード -->
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">5</div>
+      <div class="kpi-label">トピック数</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">95</div>
+      <div class="kpi-label">最高注目度</div>
+    </div>
+    <div class="kpi-card kpi-wide">
+      <div class="kpi-keyword" style="color:var(--accent)">🔑 AIエージェントの実装フェーズ</div>
+      <div class="kpi-label">今日のキーワード</div>
+    </div>
+  </div>
+
+  <!-- 概要 -->
+  <section class="section">
+    <h2 class="section-title">📋 概要</h2>
+    <div class="overview-box" style="border-left:4px solid var(--accent);background:var(--light)">
+      <p>2026年5月第3週、SaaS界ではAIエージェントの本格実装が加速。アディッシュと米Finの提携やSaaStrでのGoogle Cloud幹部の宣言が注目された。CS評価の300項目スキルマップ標準化や、主要企業のID課金から成果報酬型への移行も鮮明となった。</p>
+    </div>
+  </section>
+
+  <!-- 注目度チャート -->
+  <section class="section">
+    <h2 class="section-title">📊 トピック注目度ランキング</h2>
+    <div class="chart-wrap">
+      <canvas id="topicChart" height="220"></canvas>
+    </div>
+  </section>
+
+  <!-- トピックカード -->
+  <section class="section">
+    <h2 class="section-title">🗂 主要トピック詳細</h2>
+    <div class="topic-grid">
+      
+      <div class="topic-card rank-top">
+        <div class="topic-header">
+          <span class="topic-num">#1</span>
+          <h3 class="topic-title">【5月12日】アディッシュ、米Fin社とAIカスタマーサクセスで業務提携</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">95</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:95%;background:#f59e0b" data-score="95"></div>
+      <span class="bar-label">95</span>
+    </div>
+        <p class="topic-body">アディッシュがAIスタートアップの米Fin社と提携し、AIエージェントによる自律型CS提供を開始。有人対応とAIを組み合わせた「BPaaS」モデルにより、24時間対応と高品質な回答を両立。発表直後、同社株価は一時ストップ高を記録。AIが単なるツールから「組織のOS」へと昇格する象徴的な動きとなった。</p>
+      </div>
+      <div class="topic-card rank-mid">
+        <div class="topic-header">
+          <span class="topic-num">#2</span>
+          <h3 class="topic-title">【5月14日】SaaStr AI Annual、Google Cloud幹部が「AIパイロット運用の終焉」を宣言</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">88</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:88%;background:#f59e0b" data-score="88"></div>
+      <span class="bar-label">88</span>
+    </div>
+        <p class="topic-body">Google CloudのSarah Kennedy氏が「AIを試行から、具体的な業務責任を持つワークフローへ組み込む段階に入った」と強調。カスタマーサクセスでもNRR（売上継続率）に加え、AIが創出した経済的価値を直接測定する新指標の導入が議論された。AIエージェントの「実社会デプロイ」が業界の総意となった。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#3</span>
+          <h3 class="topic-title">【5月13日】SalesZine、カスタマーサクセスの「曖昧な評価」を脱却する300項目のスキルマップを報道</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">82</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:82%;background:#f59e0b" data-score="82"></div>
+      <span class="bar-label">82</span>
+    </div>
+        <p class="topic-body">CS組織の科学的評価に関する取り組みが報じられた。属人的対応を排除するため、300項目に及ぶ詳細なスキルマップを導入。標準化されたサクセスロードマップを用いる企業の約7割が増収を達成している実態が判明。CSが解約防止の「守り」から、アップセルを牽引する「攻め」の組織へ転換する流れが加速している。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#4</span>
+          <h3 class="topic-title">【5月15日】主要SaaSプロバイダー、従来の「ID課金」から「成果報酬型」への刷新が相次ぐ</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">75</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:75%;background:#f59e0b" data-score="75"></div>
+      <span class="bar-label">75</span>
+    </div>
+        <p class="topic-body">生成AIによる生産性向上を受け、従来のユーザー数ベースの収益モデルが形骸化。AIが創出した価値や処理量に基づく「アウトカムベース（成果報酬型）」課金への移行が主要企業で一斉に発表された。生産性が劇的に向上するAI時代において、企業のROIに直結する価格戦略がSaaS経営の最優先課題として浮上した。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#5</span>
+          <h3 class="topic-title">【5月15日】日本動物高度医療センター（JARMeC）、DXによる診療フロー刷新で増収増益</h3>
+          <span class="topic-score" style="background:#fffbeb;color:#f59e0b">70</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:70%;background:#f59e0b" data-score="70"></div>
+      <span class="bar-label">70</span>
+    </div>
+        <p class="topic-body">2026年3月期決算にて、予約から診療、会計までのデジタル化による受け入れ能力拡大が収益に大きく寄与したことが判明。垂直統合型SaaSの導入により、高度医療機器の稼働率が向上。人手不足をDXで解消し、リアルな店舗経営においてSaaS・IT投資が収益直結の武器になることをデータとして実証した。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- キーポイント -->
+  <section class="section">
+    <h2 class="section-title">✅ 今日のキーポイント</h2>
+    <ul class="kp-list">
+      <li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>AIエージェントが「試行」から「業務責任を伴うワークフローへの統合」フェーズへ突入</li>
+<li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>従来のID課金モデルが限界を迎え、AIの創出価値に基づく成果報酬型（アウトカム）への移行が加速</li>
+<li class="kp-item"><span class="kp-dot" style="background:#f59e0b"></span>CS評価の科学的標準化が進み、組織的な再現性を持った「稼ぐカスタマーサクセス」への転換が鮮明に</li>
+
+    </ul>
+  </section>
+
+  <!-- ソース --><section class='section'><h2 class='section-title'>🔗 参考情報</h2><div class='sources'><a class="source-link" href="https://saleszine.jp/news/detail/20260513" target="_blank" rel="noopener">https://saleszine.jp/news/detail/20260513</a>
+<a class="source-link" href="https://www.adish.co.jp/news/20260512" target="_blank" rel="noopener">https://www.adish.co.jp/news/20260512</a>
+<a class="source-link" href="https://www.saastr.com/annual2026" target="_blank" rel="noopener">https://www.saastr.com/annual2026</a>
+</div></section>
+
+</main>
+
+<footer class="entry-footer">
+  Powered by Gemini CLI × はせぴょんデイリーリサーチ
+</footer>
+
+<script>
+const ctx = document.getElementById('topicChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["【5月12日】アディッシ", "【5月14日】SaaSt", "【5月13日】Sales", "【5月15日】主要Saa", "【5月15日】日本動物高"],
+    datasets: [{
+      label: '注目度スコア',
+      data: [95, 88, 82, 75, 70],
+      backgroundColor: ["#f59e0b", "#f59e0b", "#f59e0b", "#f59e0b", "#f59e0b"],
+      borderRadius: 8,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ` 注目度: ${ctx.raw} / 100`
+        }
+      }
+    },
+    scales: {
+      x: {
+        min: 0, max: 100,
+        grid: { color: '#f1f5f9' },
+        ticks: { color: '#64748b' }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#1e293b', font: { size: 13 } }
+      }
+    }
+  }
+});
+
+// バーアニメーション
+document.querySelectorAll('.bar-fill').forEach(el => {
+  const w = el.dataset.score + '%';
+  el.style.width = '0';
+  setTimeout(() => { el.style.width = w; }, 300);
+});
+</script>
+</body>
+</html>

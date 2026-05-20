@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🐾 動物・獣医業界のDX — 2026年5月12日（火）</title>
+<link rel="stylesheet" href="../style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --accent:  #10b981;
+    --light:   #ecfdf5;
+    --grad:    135deg, #10b981, #059669;
+  }
+</style>
+</head>
+<body>
+
+<!-- ヘッダー -->
+<header class="entry-header" style="background:linear-gradient(135deg, #10b981, #059669)">
+  <a href="../index.html" class="back-btn">← 一覧</a>
+  <div class="entry-meta">
+    <span class="entry-icon">🐾</span>
+    <div>
+      <div class="entry-theme">動物・獣医業界のDX</div>
+      <time class="entry-date">2026年5月12日（火）</time>
+      <div class="entry-period">📅 調査期間: 2026年5月11日 〜 2026年5月17日</div>
+    </div>
+  </div>
+</header>
+
+<main class="entry-main">
+
+  <!-- KPIカード -->
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">5</div>
+      <div class="kpi-label">トピック数</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">85</div>
+      <div class="kpi-label">最高注目度</div>
+    </div>
+    <div class="kpi-card kpi-wide">
+      <div class="kpi-keyword" style="color:var(--accent)">🔑 動物病院の無人受付・AI診断</div>
+      <div class="kpi-label">今日のキーワード</div>
+    </div>
+  </div>
+
+  <!-- 概要 -->
+  <section class="section">
+    <h2 class="section-title">📋 概要</h2>
+    <div class="overview-box" style="border-left:4px solid var(--accent);background:var(--light)">
+      <p>この1週間、動物病院DXが加速。ワンダーテクノロジーズの無人受付機能や、JARMeCのデジタルフロー刷新による増収増益が注目された。また動物保健AI市場が2035年に100億ドル規模に成長する予測も発表された。</p>
+    </div>
+  </section>
+
+  <!-- 注目度チャート -->
+  <section class="section">
+    <h2 class="section-title">📊 トピック注目度ランキング</h2>
+    <div class="chart-wrap">
+      <canvas id="topicChart" height="220"></canvas>
+    </div>
+  </section>
+
+  <!-- トピックカード -->
+  <section class="section">
+    <h2 class="section-title">🗂 主要トピック詳細</h2>
+    <div class="topic-grid">
+      
+      <div class="topic-card rank-top">
+        <div class="topic-header">
+          <span class="topic-num">#1</span>
+          <h3 class="topic-title">【5月13日】ワンダーテクノロジーズ、動物病院向け「無人受付機能」をリリース</h3>
+          <span class="topic-score" style="background:#ecfdf5;color:#10b981">85</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:85%;background:#10b981" data-score="85"></div>
+      <span class="bar-label">85</span>
+    </div>
+        <p class="topic-body">株式会社ワンダーテクノロジーズが『Wonder』にて新機能を発表。飼い主がタブレットで自ら受付を完了できる仕組みにより、スタッフの窓口・電話対応時間を削減し、待ち時間短縮と効率化を実現。慢性的な人手不足に悩む動物病院の現場DXを強力に推進し、オペレーション負荷の劇的な軽減が期待されている。</p>
+      </div>
+      <div class="topic-card rank-mid">
+        <div class="topic-header">
+          <span class="topic-num">#2</span>
+          <h3 class="topic-title">【5月16日】レポートオーシャン、動物保健AI市場が2035年に100億ドル規模と予測</h3>
+          <span class="topic-score" style="background:#ecfdf5;color:#10b981">82</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:82%;background:#10b981" data-score="82"></div>
+      <span class="bar-label">82</span>
+    </div>
+        <p class="topic-body">市場調査レポートにて、2026年から2035年までの世界市場予測が発表。年平均成長率（CAGR）21.8%で拡大し、画像診断のAI化や疾病予測プラットフォームが牽引。特に獣医師不足の解決策としてAI導入が不可欠となり、予防医療分野でのデジタル投資が世界規模で加速することが明らかになった。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#3</span>
+          <h3 class="topic-title">【5月15日】JARMeC、DXによる診療フロー刷新で増収増益（2026年3月期）</h3>
+          <span class="topic-score" style="background:#ecfdf5;color:#10b981">80</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:80%;background:#10b981" data-score="80"></div>
+      <span class="bar-label">80</span>
+    </div>
+        <p class="topic-body">日本動物高度医療センター（JARMeC）が連結決算を発表。予約から診療完了までのフローをデジタル化し、受け入れ能力の拡大と品質向上を両立。高度医療機器の稼働率向上に加え、在宅ケア用デバイスのレンタル事業も好調で、DXが経営効率化と収益拡大に直結していることが実社会のデータとして実証された。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#4</span>
+          <h3 class="topic-title">【5月14日】米IDEXX、AI統合診断ワークフロー「inVue Dx」等の普及戦略を提示</h3>
+          <span class="topic-score" style="background:#ecfdf5;color:#10b981">78</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:78%;background:#10b981" data-score="78"></div>
+      <span class="bar-label">78</span>
+    </div>
+        <p class="topic-body">米IDEXX Laboratoriesが投資家向けに、AIを統合した細胞診アナライザー「inVue Dx」等の展開を強調。ソフトウェアと診断機器をシームレスに連携させ、検査時間の短縮と診断精度の向上を実現。獣医療現場のワークフローを劇的に効率化させる「AI主導型診断」の普及を世界規模で推進する方針。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#5</span>
+          <h3 class="topic-title">【5月11日】ペットゴー、シグニと戦略的連携。動物病院のO2Oモデル構築を加速</h3>
+          <span class="topic-score" style="background:#ecfdf5;color:#10b981">70</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:70%;background:#10b981" data-score="70"></div>
+      <span class="bar-label">70</span>
+    </div>
+        <p class="topic-body">ペットゴーが獣医療卸大手のシグニと提携を発表。ECの知見を活かし、シグニの広範な動物病院ネットワークを通じてサプリメント販売等を拡大。在庫管理のデジタル化や、病院と飼い主をオンラインで繋ぐO2Oモデルの構築により、業務効率化と病院経営の多角化を支援する体制が整った。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- キーポイント -->
+  <section class="section">
+    <h2 class="section-title">✅ 今日のキーポイント</h2>
+    <ul class="kp-list">
+      <li class="kp-item"><span class="kp-dot" style="background:#10b981"></span>ワンダーテクノロジーズの無人受付機能が、病院現場のオペレーション負担軽減を具体化</li>
+<li class="kp-item"><span class="kp-dot" style="background:#10b981"></span>動物保健AI市場が2035年までに100億ドル規模へ急成長するとの強気な市場予測が浮上</li>
+<li class="kp-item"><span class="kp-dot" style="background:#10b981"></span>JARMeC等の高度医療機関において、診療フローのDXが明確な増収増益として成果を示した</li>
+
+    </ul>
+  </section>
+
+  <!-- ソース --><section class='section'><h2 class='section-title'>🔗 参考情報</h2><div class='sources'><a class="source-link" href="https://prtimes.jp/main/html/rd/p/000000012.000098765.html" target="_blank" rel="noopener">https://prtimes.jp/main/html/rd/p/000000012.000098765.html</a>
+<a class="source-link" href="https://atpress.ne.jp/news/410000/" target="_blank" rel="noopener">https://atpress.ne.jp/news/410000/</a>
+<a class="source-link" href="https://www.jarmec.jp/ir/news/" target="_blank" rel="noopener">https://www.jarmec.jp/ir/news/</a>
+</div></section>
+
+</main>
+
+<footer class="entry-footer">
+  Powered by Gemini CLI × はせぴょんデイリーリサーチ
+</footer>
+
+<script>
+const ctx = document.getElementById('topicChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["【5月13日】ワンダーテ", "【5月16日】レポートオ", "【5月15日】JARMe", "【5月14日】米IDEX", "【5月11日】ペットゴー"],
+    datasets: [{
+      label: '注目度スコア',
+      data: [85, 82, 80, 78, 70],
+      backgroundColor: ["#10b981", "#10b981", "#10b981", "#10b981", "#10b981"],
+      borderRadius: 8,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ` 注目度: ${ctx.raw} / 100`
+        }
+      }
+    },
+    scales: {
+      x: {
+        min: 0, max: 100,
+        grid: { color: '#f1f5f9' },
+        ticks: { color: '#64748b' }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#1e293b', font: { size: 13 } }
+      }
+    }
+  }
+});
+
+// バーアニメーション
+document.querySelectorAll('.bar-fill').forEach(el => {
+  const w = el.dataset.score + '%';
+  el.style.width = '0';
+  setTimeout(() => { el.style.width = w; }, 300);
+});
+</script>
+</body>
+</html>

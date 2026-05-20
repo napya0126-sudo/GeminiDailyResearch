@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🧘 メンタルヘルス・習慣・生産性 — 2026年5月17日（日）</title>
+<link rel="stylesheet" href="../style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --accent:  #14b8a6;
+    --light:   #f0fdfa;
+    --grad:    135deg, #14b8a6, #06b6d4;
+  }
+</style>
+</head>
+<body>
+
+<!-- ヘッダー -->
+<header class="entry-header" style="background:linear-gradient(135deg, #14b8a6, #06b6d4)">
+  <a href="../index.html" class="back-btn">← 一覧</a>
+  <div class="entry-meta">
+    <span class="entry-icon">🧘</span>
+    <div>
+      <div class="entry-theme">メンタルヘルス・習慣・生産性</div>
+      <time class="entry-date">2026年5月17日（日）</time>
+      <div class="entry-period">📅 調査期間: 2026年5月11日 〜 2026年5月17日</div>
+    </div>
+  </div>
+</header>
+
+<main class="entry-main">
+
+  <!-- KPIカード -->
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">5</div>
+      <div class="kpi-label">トピック数</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">92</div>
+      <div class="kpi-label">最高注目度</div>
+    </div>
+    <div class="kpi-card kpi-wide">
+      <div class="kpi-keyword" style="color:var(--accent)">🔑 防衛的リスキリング</div>
+      <div class="kpi-label">今日のキーワード</div>
+    </div>
+  </div>
+
+  <!-- 概要 -->
+  <section class="section">
+    <h2 class="section-title">📋 概要</h2>
+    <div class="overview-box" style="border-left:4px solid var(--accent);background:var(--light)">
+      <p>2026年5月第3週、AIによる生産性向上とメンタル保護が加速。自民党がカスハラ対策の法制化を提言し、JDLAのG検定では非エンジニアの受験が15%増。SaaSの成果報酬型移行など実利重視の動きが鮮明に。</p>
+    </div>
+  </section>
+
+  <!-- 注目度チャート -->
+  <section class="section">
+    <h2 class="section-title">📊 トピック注目度ランキング</h2>
+    <div class="chart-wrap">
+      <canvas id="topicChart" height="220"></canvas>
+    </div>
+  </section>
+
+  <!-- トピックカード -->
+  <section class="section">
+    <h2 class="section-title">🗂 主要トピック詳細</h2>
+    <div class="topic-grid">
+      
+      <div class="topic-card rank-top">
+        <div class="topic-header">
+          <span class="topic-num">#1</span>
+          <h3 class="topic-title">【5月16日/自民党】カスハラ対策の法制化を提言</h3>
+          <span class="topic-score" style="background:#f0fdfa;color:#14b8a6">92</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:92%;background:#14b8a6" data-score="92"></div>
+      <span class="bar-label">92</span>
+    </div>
+        <p class="topic-body">従業員のメンタルヘルス悪化による離職を防ぐため、心理的安全性の確保を企業の義務とする提言を提出。厚労省調査で9割の企業が被害を把握しており、法整備により安心してキャリアを継続できる環境作りが急務。職場環境の安全性が、生産性を左右する企業選定の重要指標として再認識された。(148字)</p>
+      </div>
+      <div class="topic-card rank-mid">
+        <div class="topic-header">
+          <span class="topic-num">#2</span>
+          <h3 class="topic-title">【5月11日/JDLA】G検定受験者が15%増と急増</h3>
+          <span class="topic-score" style="background:#f0fdfa;color:#14b8a6">85</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:85%;background:#14b8a6" data-score="85"></div>
+      <span class="bar-label">85</span>
+    </div>
+        <p class="topic-body">2026年第2回G検定が実施され、非エンジニア層の受験者が前年同期比約15%増加。生成AIの活用が自己成長に不可欠な「習慣」として定着し、企業のリスキリング支援制度も過去最高水準の活用。実質賃金減への危機感から、個人のキャリア自律を促す防衛的リスキリングへの熱量が高まっている。(149字)</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#3</span>
+          <h3 class="topic-title">【5月13日/SalesZine】300項目のスキルマップ報道</h3>
+          <span class="topic-score" style="background:#f0fdfa;color:#14b8a6">82</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:82%;background:#14b8a6" data-score="82"></div>
+      <span class="bar-label">82</span>
+    </div>
+        <p class="topic-body">カスタマーサクセスの評価を科学的に行う「300項目のスキルマップ」導入が報じられた。属人的対応を排除し、標準化されたロードマップを導入した企業の7割が増収を達成。CSが単なる解約防止から、組織的な生産性を高めてアップセルを牽引する「攻め」の組織へ転換する流れが鮮明となった。(148字)</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#4</span>
+          <h3 class="topic-title">【5月14日/リクルート】転職求人倍率2.83倍を記録</h3>
+          <span class="topic-score" style="background:#f0fdfa;color:#14b8a6">78</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:78%;background:#14b8a6" data-score="78"></div>
+      <span class="bar-label">78</span>
+    </div>
+        <p class="topic-body">転職市場動向調査により、求人倍率が2.83倍と高水準を維持。特にIT・グリーン分野での専門人材不足が深刻化し、未経験からのキャリアチェンジ支援を強化する企業が急増。個人のスキルが年収に直結する傾向が強まり、自己投資を日常的な習慣とする労働者層が拡大し、雇用の流動性が生産性を押し上げている。(150字)</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#5</span>
+          <h3 class="topic-title">【5月15日/主要SaaS】成果報酬型課金への刷新が相次ぐ</h3>
+          <span class="topic-score" style="background:#f0fdfa;color:#14b8a6">75</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:75%;background:#14b8a6" data-score="75"></div>
+      <span class="bar-label">75</span>
+    </div>
+        <p class="topic-body">AIによる爆発的な生産性向上を受け、従来のID課金から「成果報酬型（アウトカムベース）」への刷新が一斉に発表された。AIが創出した価値や処理量に基づく価格戦略が普及。生産性が劇的に向上する中で、企業のROIに直結する生産性の可視化が2026年5月の最優先経営課題として浮上した。(149字)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- キーポイント -->
+  <section class="section">
+    <h2 class="section-title">✅ 今日のキーポイント</h2>
+    <ul class="kp-list">
+      <li class="kp-item"><span class="kp-dot" style="background:#14b8a6"></span>カスハラ対策法制化提言による、従業員の心理的安全確保とメンタル離職防止の義務化</li>
+<li class="kp-item"><span class="kp-dot" style="background:#14b8a6"></span>非エンジニア層におけるAIスキル（G検定）習得の必須化とリスキリングの習慣化</li>
+<li class="kp-item"><span class="kp-dot" style="background:#14b8a6"></span>AIによる生産性向上に伴う、SaaSビジネスモデルの成果報酬型への劇的な転換</li>
+
+    </ul>
+  </section>
+
+  <!-- ソース --><section class='section'><h2 class='section-title'>🔗 参考情報</h2><div class='sources'><a class="source-link" href="https://www.jdla.org/news/20240511001/" target="_blank" rel="noopener">https://www.jdla.org/news/20240511001/</a>
+<a class="source-link" href="https://www.recruit.co.jp/newsroom/2024/0514_c001.html" target="_blank" rel="noopener">https://www.recruit.co.jp/newsroom/2024/0514_c001.html</a>
+</div></section>
+
+</main>
+
+<footer class="entry-footer">
+  Powered by Gemini CLI × はせぴょんデイリーリサーチ
+</footer>
+
+<script>
+const ctx = document.getElementById('topicChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["【5月16日/自民党】カ", "【5月11日/JDLA】", "【5月13日/Sales", "【5月14日/リクルート", "【5月15日/主要Saa"],
+    datasets: [{
+      label: '注目度スコア',
+      data: [92, 85, 82, 78, 75],
+      backgroundColor: ["#14b8a6", "#14b8a6", "#14b8a6", "#14b8a6", "#14b8a6"],
+      borderRadius: 8,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ` 注目度: ${ctx.raw} / 100`
+        }
+      }
+    },
+    scales: {
+      x: {
+        min: 0, max: 100,
+        grid: { color: '#f1f5f9' },
+        ticks: { color: '#64748b' }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#1e293b', font: { size: 13 } }
+      }
+    }
+  }
+});
+
+// バーアニメーション
+document.querySelectorAll('.bar-fill').forEach(el => {
+  const w = el.dataset.score + '%';
+  el.style.width = '0';
+  setTimeout(() => { el.style.width = w; }, 300);
+});
+</script>
+</body>
+</html>

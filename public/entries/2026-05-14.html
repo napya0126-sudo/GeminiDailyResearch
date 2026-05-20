@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🌾 海外農業・畜産テクノロジー — 2026年5月14日（木）</title>
+<link rel="stylesheet" href="../style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --accent:  #3b82f6;
+    --light:   #eff6ff;
+    --grad:    135deg, #3b82f6, #0ea5e9;
+  }
+</style>
+</head>
+<body>
+
+<!-- ヘッダー -->
+<header class="entry-header" style="background:linear-gradient(135deg, #3b82f6, #0ea5e9)">
+  <a href="../index.html" class="back-btn">← 一覧</a>
+  <div class="entry-meta">
+    <span class="entry-icon">🌾</span>
+    <div>
+      <div class="entry-theme">海外農業・畜産テクノロジー</div>
+      <time class="entry-date">2026年5月14日（木）</time>
+      <div class="entry-period">📅 調査期間: 2026年5月11日 〜 2026年5月17日</div>
+    </div>
+  </div>
+</header>
+
+<main class="entry-main">
+
+  <!-- KPIカード -->
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">5</div>
+      <div class="kpi-label">トピック数</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-num" style="color:var(--accent)">90</div>
+      <div class="kpi-label">最高注目度</div>
+    </div>
+    <div class="kpi-card kpi-wide">
+      <div class="kpi-keyword" style="color:var(--accent)">🔑 精密自律とレトロフィット</div>
+      <div class="kpi-label">今日のキーワード</div>
+    </div>
+  </div>
+
+  <!-- 概要 -->
+  <section class="section">
+    <h2 class="section-title">📋 概要</h2>
+    <div class="overview-box" style="border-left:4px solid var(--accent);background:var(--light)">
+      <p>ジョン・ディアが最大634馬力の「8シリーズ」を発表。CNHは市場低迷で格付け見通しが低下する一方、Agcoは後付けAI技術で成長を狙う。畜産では生成AIが給餌計画を自動作成するなど、自律化が一段と進んだ。</p>
+    </div>
+  </section>
+
+  <!-- 注目度チャート -->
+  <section class="section">
+    <h2 class="section-title">📊 トピック注目度ランキング</h2>
+    <div class="chart-wrap">
+      <canvas id="topicChart" height="220"></canvas>
+    </div>
+  </section>
+
+  <!-- トピックカード -->
+  <section class="section">
+    <h2 class="section-title">🗂 主要トピック詳細</h2>
+    <div class="topic-grid">
+      
+      <div class="topic-card rank-top">
+        <div class="topic-header">
+          <span class="topic-num">#1</span>
+          <h3 class="topic-title">【5月17日/John Deere】高出力「8シリーズ」拡張モデルを発表</h3>
+          <span class="topic-score" style="background:#eff6ff;color:#3b82f6">90</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:90%;background:#3b82f6" data-score="90"></div>
+      <span class="bar-label">90</span>
+    </div>
+        <p class="topic-body">南アフリカのNAMPO 2026にて、フラッグシップの540モデルを含む「8シリーズ」新ラインナップを公開。最大634馬力を誇り、電気無段変速機「eAutoPowr」を搭載。業界最大級の418L/分という高い油圧容量により、畜産向けの大型スラリータンカー等の作業効率を劇的に向上させる。</p>
+      </div>
+      <div class="topic-card rank-mid">
+        <div class="topic-header">
+          <span class="topic-num">#2</span>
+          <h3 class="topic-title">【5月13日/CNH Industrial】フィッチが格付け見通しを「ネガティブ」に変更</h3>
+          <span class="topic-score" style="background:#eff6ff;color:#3b82f6">85</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:85%;background:#3b82f6" data-score="85"></div>
+      <span class="bar-label">85</span>
+    </div>
+        <p class="topic-body">格付け会社フィッチ・レーティングスが同社の見通しを下方修正。農業機械市場の低迷長期化が要因。CNHはこれに対し、傘下のRaven Technologiesによる精密自律走行技術の統合を加速。新車販売の減少を、既存機へのテクノロジー付加価値提供で補う戦略を改めて強調した。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#3</span>
+          <h3 class="topic-title">【5月13日/Agco】レトロフィット技術「PTx Trimble」を成長の柱に</h3>
+          <span class="topic-score" style="background:#eff6ff;color:#3b82f6">75</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:75%;background:#3b82f6" data-score="75"></div>
+      <span class="bar-label">75</span>
+    </div>
+        <p class="topic-body">J.P. Morganの技術カンファレンスにて、インテリジェントカメラ「SymphonyVision」やTrimbleとの合弁「PTx Trimble」の戦略を説明。新車購入を控える農家向けに、手持ちの旧型機械をAI搭載機へアップグレードする「レトロフィット（後付け）」市場の開拓を強化する。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#4</span>
+          <h3 class="topic-title">【5月13日/Crunchbase】AgTech投資額が年初から14億ドルに到達</h3>
+          <span class="topic-score" style="background:#eff6ff;color:#3b82f6">70</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:70%;background:#3b82f6" data-score="70"></div>
+      <span class="bar-label">70</span>
+    </div>
+        <p class="topic-body">2026年5月上旬までの投資動向報告を公開。投資総額は前年並みだが、投資件数は大幅に減少。市場が「トップヘビー」化しており、投資家が新規参入よりも実績のある大手スタートアップ（Halter等）への集中投資を好む、シビアな選別局面に入っていることが明らかになった。</p>
+      </div>
+      <div class="topic-card ">
+        <div class="topic-header">
+          <span class="topic-num">#5</span>
+          <h3 class="topic-title">【5月14日/畜産AI】生成AIによる「自律的決定」への移行が加速</h3>
+          <span class="topic-score" style="background:#eff6ff;color:#3b82f6">65</span>
+        </div>
+        <div class="bar-wrap">
+      <div class="bar-fill" style="width:65%;background:#3b82f6" data-score="65"></div>
+      <span class="bar-label">65</span>
+    </div>
+        <p class="topic-body">業界レポートにて、畜産管理が「監視」から「AIによる自動実行」へ進化したことが報じられた。牛舎環境や成長データを生成AIが解析し、最適な給餌計画やワクチン接種スケジュールを自動で起案・実行。人間が例外のみを確認する「エージェント型AI」の導入が大手農場で本格化している。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- キーポイント -->
+  <section class="section">
+    <h2 class="section-title">✅ 今日のキーポイント</h2>
+    <ul class="kp-list">
+      <li class="kp-item"><span class="kp-dot" style="background:#3b82f6"></span>大手メーカーが新車販売減を補うため「後付け自律走行キット（レトロフィット）」へ注力</li>
+<li class="kp-item"><span class="kp-dot" style="background:#3b82f6"></span>畜産テックが「監視」から「AIによる自動意思決定（給餌・投薬）」のフェーズへ進化</li>
+<li class="kp-item"><span class="kp-dot" style="background:#3b82f6"></span>AgTech投資が「件数減少・大型案件集中」の二極化傾向を強めている</li>
+
+    </ul>
+  </section>
+
+  <!-- ソース --><section class='section'><h2 class='section-title'>🔗 参考情報</h2><div class='sources'><a class="source-link" href="https://www.fitchratings.com/" target="_blank" rel="noopener">https://www.fitchratings.com/</a>
+<a class="source-link" href="https://www.agcocorp.com/news.html" target="_blank" rel="noopener">https://www.agcocorp.com/news.html</a>
+<a class="source-link" href="https://www.crunchbase.com/report/agtech-funding-2026" target="_blank" rel="noopener">https://www.crunchbase.com/report/agtech-funding-2026</a>
+</div></section>
+
+</main>
+
+<footer class="entry-footer">
+  Powered by Gemini CLI × はせぴょんデイリーリサーチ
+</footer>
+
+<script>
+const ctx = document.getElementById('topicChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["【5月17日/John ", "【5月13日/CNH I", "【5月13日/Agco】", "【5月13日/Crunc", "【5月14日/畜産AI】"],
+    datasets: [{
+      label: '注目度スコア',
+      data: [90, 85, 75, 70, 65],
+      backgroundColor: ["#3b82f6", "#3b82f6", "#3b82f6", "#3b82f6", "#3b82f6"],
+      borderRadius: 8,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ` 注目度: ${ctx.raw} / 100`
+        }
+      }
+    },
+    scales: {
+      x: {
+        min: 0, max: 100,
+        grid: { color: '#f1f5f9' },
+        ticks: { color: '#64748b' }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#1e293b', font: { size: 13 } }
+      }
+    }
+  }
+});
+
+// バーアニメーション
+document.querySelectorAll('.bar-fill').forEach(el => {
+  const w = el.dataset.score + '%';
+  el.style.width = '0';
+  setTimeout(() => { el.style.width = w; }, 300);
+});
+</script>
+</body>
+</html>
