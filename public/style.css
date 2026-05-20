@@ -98,7 +98,8 @@ body {
 .entry-meta { display: flex; align-items: center; gap: 16px; }
 .entry-icon  { font-size: 2.4rem; }
 .entry-theme { color: #fff; font-size: 1.2rem; font-weight: 800; }
-.entry-date  { color: rgba(255,255,255,.75); font-size: .85rem; }
+.entry-date   { color: rgba(255,255,255,.75); font-size: .85rem; }
+.entry-period { color: rgba(255,255,255,.6);  font-size: .78rem; margin-top: 2px; }
 
 /* ════════════════════════════
    ENTRY PAGE — MAIN
